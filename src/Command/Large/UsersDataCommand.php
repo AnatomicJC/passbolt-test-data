@@ -32,7 +32,7 @@ class UsersDataCommand extends DataCommand
     {
         $users[] = [
             'id' => UuidFactory::uuid('user.id.admin'),
-            'username' => 'admin@passbolt.com',
+            'username' => 'admin@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.admin'),
             'active' => 1,
             'deleted' => 0,
@@ -43,7 +43,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.anonymous'),
-            'username' => 'anonymous@passbolt.com',
+            'username' => 'anonymous@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.anonymous'),
             'active' => 1,
             'deleted' => 0,
@@ -56,7 +56,7 @@ class UsersDataCommand extends DataCommand
         for ($i = 0; $i < $max; $i++) {
             $users[] = [
                 'id' => UuidFactory::uuid('user.id.user_' . $i),
-                'username' => 'user_' . $i . '@passbolt.com',
+                'username' => 'user_' . $i . '@passbolt.dev',
                 'role_id' => UuidFactory::uuid('role.id.user'),
                 'active' => 1,
                 'deleted' => 0,

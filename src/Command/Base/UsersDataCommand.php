@@ -30,7 +30,7 @@ class UsersDataCommand extends DataCommand
     {
         $users[] = [
             'id' => UuidFactory::uuid('user.id.admin'),
-            'username' => 'admin@passbolt.com',
+            'username' => 'admin@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.admin'),
             'active' => 1,
             'deleted' => 0,
@@ -39,7 +39,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.anonymous'),
-            'username' => 'anonymous@passbolt.com',
+            'username' => 'anonymous@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.anonymous'),
             'active' => 1,
             'deleted' => 0,
@@ -48,7 +48,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.ada'),
-            'username' => 'ada@passbolt.com',
+            'username' => 'ada@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -59,7 +59,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.adele'),
-            'username' => 'adele@passbolt.com',
+            'username' => 'adele@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -70,7 +70,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.betty'),
-            'username' => 'betty@passbolt.com',
+            'username' => 'betty@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -80,7 +80,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.carol'),
-            'username' => 'carol@passbolt.com',
+            'username' => 'carol@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -91,7 +91,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.dame'),
-            'username' => 'dame@passbolt.com',
+            'username' => 'dame@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -102,7 +102,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.edith'),
-            'username' => 'edith@passbolt.com',
+            'username' => 'edith@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'password' => 'password',
             'active' => 1,
@@ -114,7 +114,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.frances'),
-            'username' => 'frances@passbolt.com',
+            'username' => 'frances@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -123,7 +123,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.grace'),
-            'username' => 'grace@passbolt.com',
+            'username' => 'grace@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -132,7 +132,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.hedy'),
-            'username' => 'hedy@passbolt.com',
+            'username' => 'hedy@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -141,7 +141,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.irene'),
-            'username' => 'irene@passbolt.com',
+            'username' => 'irene@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -150,7 +150,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.jean'),
-            'username' => 'jean@passbolt.com',
+            'username' => 'jean@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -159,7 +159,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.joan'),
-            'username' => 'joan@passbolt.com',
+            'username' => 'joan@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -168,7 +168,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.kathleen'),
-            'username' => 'kathleen@passbolt.com',
+            'username' => 'kathleen@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -177,7 +177,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.lynne'),
-            'username' => 'lynne@passbolt.com',
+            'username' => 'lynne@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -186,7 +186,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.margaret'),
-            'username' => 'margaret@passbolt.com',
+            'username' => 'margaret@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -195,7 +195,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.marlyn'),
-            'username' => 'marlyn@passbolt.com',
+            'username' => 'marlyn@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -204,7 +204,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.nancy'),
-            'username' => 'nancy@passbolt.com',
+            'username' => 'nancy@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -213,7 +213,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.orna'),
-            'username' => 'orna@passbolt.com',
+            'username' => 'orna@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -222,7 +222,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.ping'),
-            'username' => 'ping@passbolt.com',
+            'username' => 'ping@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -231,7 +231,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.ruth'),
-            'username' => 'ruth@passbolt.com',
+            'username' => 'ruth@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 0,
             'deleted' => 0,
@@ -240,7 +240,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.sofia'),
-            'username' => 'sofia@passbolt.com',
+            'username' => 'sofia@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 1,
@@ -249,7 +249,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.thelma'),
-            'username' => 'thelma@passbolt.com',
+            'username' => 'thelma@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -258,7 +258,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.ursula'),
-            'username' => 'ursula@passbolt.com',
+            'username' => 'ursula@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -267,7 +267,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.wang'),
-            'username' => 'wang@passbolt.com',
+            'username' => 'wang@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,
@@ -276,7 +276,7 @@ class UsersDataCommand extends DataCommand
         ];
         $users[] = [
             'id' => UuidFactory::uuid('user.id.yvonne'),
-            'username' => 'yvonne@passbolt.com',
+            'username' => 'yvonne@passbolt.dev',
             'role_id' => UuidFactory::uuid('role.id.user'),
             'active' => 1,
             'deleted' => 0,

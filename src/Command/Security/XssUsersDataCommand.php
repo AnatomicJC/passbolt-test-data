@@ -36,7 +36,7 @@ class XssUsersDataCommand extends UsersDataCommand
             $userAlias = 'xss' . count($users);
             $users[] = [
                 'id' => UuidFactory::uuid("user.id.$userAlias"),
-                'username' => "$userAlias@passbolt.com",
+                'username' => "$userAlias@passbolt.dev",
                 'role_id' => UuidFactory::uuid('role.id.admin'),
                 'active' => 1,
                 'deleted' => 0,
